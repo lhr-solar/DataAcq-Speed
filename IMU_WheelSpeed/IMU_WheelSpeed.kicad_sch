@@ -2350,6 +2350,14 @@
 		(uuid "3035121c-16f3-414f-bf68-f5ed71f282ac")
 	)
 	(no_connect
+		(at 124.46 64.77)
+		(uuid "64e12d00-71c9-4cbd-8435-f9eb9ca74585")
+	)
+	(no_connect
+		(at 180.34 100.33)
+		(uuid "66822ab7-b478-434e-981b-4aaa031dd898")
+	)
+	(no_connect
 		(at 180.34 68.58)
 		(uuid "7f63f6a5-8d84-40ee-aab8-e68f2cf35036")
 	)
@@ -2384,6 +2392,18 @@
 	(no_connect
 		(at 218.44 63.5)
 		(uuid "ce8df01c-70fa-46e1-81b8-5a0fc9aeb4d5")
+	)
+	(no_connect
+		(at 180.34 97.79)
+		(uuid "f02be8d6-05a8-4d7e-a08c-17482ee99751")
+	)
+	(no_connect
+		(at 180.34 95.25)
+		(uuid "f3b820b8-1ecd-4643-a348-d0ca6e6e1c1f")
+	)
+	(no_connect
+		(at 180.34 102.87)
+		(uuid "f6c9cdf4-0d17-4aea-998a-45e33f2f4910")
 	)
 	(no_connect
 		(at 218.44 111.76)
@@ -2987,7 +3007,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d546e55c-3dbe-436a-b92d-ea97c9e45f6c")
+		(uuid "e2746965-a146-44f5-a47b-214cf01dc29c")
 	)
 	(wire
 		(pts
@@ -3134,7 +3154,7 @@
 		)
 		(uuid "0934b9c5-001c-47a0-a60f-09c2865eaeae")
 	)
-	(label "VDD"
+	(label "VDD_3.3V"
 		(at 152.4 116.84 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3156,7 +3176,7 @@
 		)
 		(uuid "09dcd3cd-dde4-4568-a312-b149bee04325")
 	)
-	(label "IMU_CLK"
+	(label "IMU_I2C_SLC"
 		(at 105.41 149.86 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3200,7 +3220,7 @@
 		)
 		(uuid "2a5fef5b-ec25-476f-bdd0-fa90c80ffa7a")
 	)
-	(label "GND_Net"
+	(label "GND"
 		(at 105.41 156.21 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3254,17 +3274,6 @@
 			(justify left bottom)
 		)
 		(uuid "74580d4b-992b-4963-b9fb-cba614dbaa24")
-	)
-	(label "LDO_1.8V"
-		(at 142.24 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left bottom)
-		)
-		(uuid "88102ed1-5c4d-40d8-978f-33586ba7b5a6")
 	)
 	(label "GND_Net"
 		(at 114.3 68.58 0)
@@ -3343,6 +3352,17 @@
 		)
 		(uuid "ae52d40c-d587-448f-bd2f-770f91eb6970")
 	)
+	(label "LDO_1.8V"
+		(at 143.51 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "bccae37a-2321-486e-ad0e-e6b8442fd80b")
+	)
 	(label "MAGSLV_Input"
 		(at 105.41 130.81 0)
 		(fields_autoplaced yes)
@@ -3388,7 +3408,7 @@
 		(uuid "e050427e-303c-4393-bc2a-14e5bfad67ef")
 	)
 	(label "LDO_1.8V"
-		(at 81.28 137.16 0)
+		(at 80.01 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4327,7 +4347,7 @@
 				)
 			)
 		)
-		(property "Value" "GND_Net"
+		(property "Value" "GND"
 			(at 94.488 156.21 90)
 			(effects
 				(font
@@ -5358,8 +5378,8 @@
 				)
 			)
 		)
-		(property "Value" "IMU_CS"
-			(at 94.488 143.51 90)
+		(property "Value" "IMU_I2C_SDA"
+			(at 92.964 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
