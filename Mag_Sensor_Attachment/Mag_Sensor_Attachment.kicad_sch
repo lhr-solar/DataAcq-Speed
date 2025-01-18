@@ -1991,7 +1991,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_FFC-FPC:Molex_200528-0060_1x06-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105309-xx06_1x06_P2.50mm_Vertical"
 			(at 127 62.23 0)
 			(effects
 				(font
