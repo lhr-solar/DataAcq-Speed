@@ -21,7 +21,7 @@ There are exceptions with all guidelines. As long as your decisions are justifie
 - [x] Is proper power protection given to peripheral devices (zener diodes)?  
 - [x] Are peripheral units used properly (reading datasheet)?  
 - [x] Are testing points added at useful places?  
-- [x] Is there proper short to GND protection at MCU outputs (inline resistors)?  
+- [ ] Is there proper short to GND protection at MCU outputs (inline resistors)?  
 - [x] Do ADC inputs have caps (appropriately sized to prevent RC delay)?  
 - [x] Are ADC inputs biased so there is room above expected value to determine if value is being overflowed?  
 - [x] Are LEDs located at useful places (comm, power, debugging, extra GPIO)? They should be placed in locations
