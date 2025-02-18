@@ -1397,16 +1397,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 100.33) (xy 160.02 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01667495-e8a4-42d8-9298-b160d1de2596")
-	)
-	(wire
-		(pts
 			(xy 113.03 102.87) (xy 116.84 102.87)
 		)
 		(stroke
@@ -1577,7 +1567,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 100.33) (xy 146.05 100.33)
+			(xy 142.24 100.33) (xy 160.02 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1677,16 +1667,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 104.14) (xy 110.49 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "badb2156-91b4-44a1-be17-44b80f2be8d2")
-	)
-	(wire
-		(pts
 			(xy 134.62 77.47) (xy 134.62 67.31)
 		)
 		(stroke
@@ -1727,6 +1707,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 77.47) (xy 110.49 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1211471-1251-4790-a880-a2e2223b4e86")
+	)
+	(wire
+		(pts
 			(xy 129.54 121.92) (xy 132.08 121.92)
 		)
 		(stroke
@@ -1734,16 +1724,6 @@
 			(type default)
 		)
 		(uuid "e3ed0053-b0fe-40ba-a5ed-999ad60ac3da")
-	)
-	(wire
-		(pts
-			(xy 110.49 77.47) (xy 110.49 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e608b4e5-9b89-456f-a749-bf983d9a45b4")
 	)
 	(wire
 		(pts
@@ -1993,74 +1973,6 @@
 			(project "Mag_Sensor_Attachment"
 				(path "/be03b026-0e5d-44bc-95e6-da5ef7d72856"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 149.86 100.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49c350b3-7572-4ba9-bd16-3f8d62bfa081")
-		(property "Reference" "R2"
-			(at 149.86 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "66k"
-			(at 149.86 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 149.86 102.108 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 149.86 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f77f9183-9303-42a6-a2ea-5923b3dfdd56")
-		)
-		(pin "2"
-			(uuid "111d30a7-fe74-4ef2-8fb7-65f0fbaf17b9")
-		)
-		(instances
-			(project "Mag_Sensor_Attachment"
-				(path "/be03b026-0e5d-44bc-95e6-da5ef7d72856"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2322,76 +2234,6 @@
 			(project "Mag_Sensor_Attachment"
 				(path "/be03b026-0e5d-44bc-95e6-da5ef7d72856"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 110.49 100.33 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "77533cd3-3a7d-4790-92ff-a8429750c983")
-		(property "Reference" "R1"
-			(at 107.95 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "66k"
-			(at 107.95 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 112.268 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 110.49 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb76a5cc-de04-4b1d-b8fc-df28452285c6")
-		)
-		(pin "2"
-			(uuid "fdf347e0-91c3-4cd2-a45f-bab868ae0a3b")
-		)
-		(instances
-			(project "Mag_Sensor_Attachment"
-				(path "/be03b026-0e5d-44bc-95e6-da5ef7d72856"
-					(reference "R1")
 					(unit 1)
 				)
 			)
