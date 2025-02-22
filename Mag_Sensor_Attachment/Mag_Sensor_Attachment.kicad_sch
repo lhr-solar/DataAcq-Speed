@@ -2185,7 +2185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105313-xx06_1x06_P2.50mm_Horizontal"
+		(property "Footprint" "UTSVT_Connectors:Molex_MicroFit_01x06_Horizontal"
 			(at 127 62.23 0)
 			(effects
 				(font
@@ -2262,6 +2262,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"

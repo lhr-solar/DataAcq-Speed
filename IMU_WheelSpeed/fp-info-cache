@@ -1,4 +1,4 @@
-24023206655920889
+24024943873017895
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96004,6 +96004,13 @@ Connector
 0
 5
 5
+UTSVT_Connectors
+CONN_SD-43650-006_02_MOL
+
+436500215 
+0
+2
+2
 UTSVT_Connectors
 Cal_Test_Banana_Jack_1_Pin_4mm
 

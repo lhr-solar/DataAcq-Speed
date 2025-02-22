@@ -925,16 +925,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 114.3) (xy 119.38 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d3fcb7b-107c-4d64-8487-70bd3fd4538c")
-	)
-	(wire
-		(pts
 			(xy 149.86 104.14) (xy 149.86 105.41)
 		)
 		(stroke
@@ -985,26 +975,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 115.57) (xy 120.65 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd90a6a6-290f-4de9-a059-4290031952c9")
-	)
-	(wire
-		(pts
-			(xy 119.38 114.3) (xy 119.38 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf7c9fd3-64fa-4134-ab68-9bb552870209")
-	)
-	(wire
-		(pts
 			(xy 128.27 129.54) (xy 132.08 129.54)
 		)
 		(stroke
@@ -1022,16 +992,6 @@
 			(type default)
 		)
 		(uuid "d9a5be6a-c045-4f5a-8f6f-e6828fe5ff1f")
-	)
-	(wire
-		(pts
-			(xy 120.65 115.57) (xy 120.65 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de767f20-7817-453e-a69a-2ecc9542fa43")
 	)
 	(wire
 		(pts
@@ -1075,6 +1035,28 @@
 			(justify left bottom)
 		)
 		(uuid "5df45f02-f0ff-424b-b1b0-8f9540b4e896")
+	)
+	(label "IMU_I2C_SDA"
+		(at 144.78 111.76 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "a42346bc-1c0b-4f49-bece-91bf6c8538d5")
+	)
+	(label "IMU_I2C_SCL"
+		(at 147.32 111.76 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "b73fe0cd-d448-4421-8ac8-73d8d2a6bc3a")
 	)
 	(label "LDO_1.8V"
 		(at 149.86 115.57 0)
@@ -1474,7 +1456,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105313-xx03_1x03_P2.50mm_Horizontal"
+		(property "Footprint" "UTSVT_Connectors:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical"
 			(at 147.32 99.06 0)
 			(effects
 				(font
