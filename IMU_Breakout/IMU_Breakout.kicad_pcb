@@ -523,7 +523,7 @@
 		(descr "LGA, 14 Pin (https://www.st.com/resource/en/datasheet/lsm6ds3tr-c.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "LGA NoLead")
 		(property "Reference" "U1"
-			(at 2.5 0.115 0)
+			(at 0.0875 -0.685 0)
 			(layer "F.SilkS")
 			(uuid "df70d085-93a5-4238-848c-e0b89b19bc03")
 			(effects
@@ -928,7 +928,7 @@
 		(uuid "fb87d68c-01a2-4e72-98f3-ffe31e15c975")
 		(at 150.75 89.29 180)
 		(property "Reference" "J1"
-			(at 3 -3.5 360)
+			(at 3.25 2.54 360)
 			(layer "F.SilkS")
 			(uuid "84e4f088-fb63-4894-9785-5851bda490f3")
 			(effects

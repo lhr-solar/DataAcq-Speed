@@ -2628,7 +2628,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 57.15) (xy 63.5 57.15)
+			(xy 68.58 57.15) (xy 60.96 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2868,7 +2868,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 59.69) (xy 63.5 59.69)
+			(xy 68.58 59.69) (xy 60.96 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2978,6 +2978,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 137.16) (xy 72.39 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc2a7f4c-3536-4e58-81e8-7c8309fbaace")
+	)
+	(wire
+		(pts
 			(xy 160.02 62.23) (xy 160.02 64.77)
 		)
 		(stroke
@@ -3068,7 +3078,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 62.23) (xy 63.5 62.23)
+			(xy 68.58 62.23) (xy 60.96 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3475,7 +3485,7 @@
 		(uuid "29505217-1ae7-4d85-9ab9-923c04b91809")
 	)
 	(label "IMU_I2C_SCL"
-		(at 62.23 62.23 0)
+		(at 62.23 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3530,7 +3540,7 @@
 		(uuid "6a057554-011e-41a3-8ed4-bc4355661c54")
 	)
 	(label "IMU_I2C_SDA"
-		(at 62.23 59.69 0)
+		(at 62.23 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3660,6 +3670,17 @@
 			(justify left bottom)
 		)
 		(uuid "d637e6d5-8e78-4f75-9911-8e367f1da451")
+	)
+	(label "VDD_3.3V"
+		(at 68.58 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7396883-2bf0-4abb-b618-0473ebe2d06e")
 	)
 	(label "MAGSLV_Output"
 		(at 201.93 123.19 0)
@@ -3797,7 +3818,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 92.71 129.54 0)
 			(effects
 				(font
@@ -4055,7 +4076,7 @@
 				)
 			)
 		)
-		(property "Value" "VDD"
+		(property "Value" "12V_IN"
 			(at 58.928 111.76 90)
 			(effects
 				(font
@@ -4063,7 +4084,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 68.58 116.84 0)
 			(effects
 				(font
@@ -4128,7 +4149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 92.71 116.84 0)
 			(effects
 				(font
@@ -4506,7 +4527,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 58.42 59.69 0)
+		(at 55.88 59.69 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4515,7 +4536,7 @@
 		(dnp no)
 		(uuid "61fa76d2-4c58-4eca-9ca7-46ee79767b26")
 		(property "Reference" "J7"
-			(at 62.23 65.532 0)
+			(at 59.69 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4523,7 +4544,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Socket"
-			(at 64.516 69.596 0)
+			(at 61.976 69.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4531,7 +4552,7 @@
 			)
 		)
 		(property "Footprint" "UTSVT_Connectors:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical"
-			(at 58.42 59.69 0)
+			(at 55.88 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4540,7 +4561,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 59.69 0)
+			(at 55.88 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4549,7 +4570,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 58.42 59.69 0)
+			(at 55.88 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4886,7 +4907,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 68.58 129.54 0)
 			(effects
 				(font
@@ -5074,6 +5095,71 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 68.58 137.16 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "895d476f-4ff5-4f6b-8402-93e143c9bd1e")
+		(property "Reference" "TP2"
+			(at 58.928 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD_3.3V"
+			(at 58.928 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+			(at 68.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 68.58 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbcc43fd-54d7-4c0d-8dd4-047a7db8e168")
+		)
+		(instances
+			(project "IMU_WheelSpeed"
+				(path "/14f79712-0700-402e-8c34-7a7e829c8748"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 68.58 130.81 90)
 		(mirror x)
 		(unit 1)
@@ -5098,7 +5184,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 68.58 135.89 0)
 			(effects
 				(font
@@ -5387,7 +5473,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 92.71 123.19 0)
 			(effects
 				(font
@@ -5522,7 +5608,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 92.71 142.24 0)
 			(effects
 				(font
@@ -5717,7 +5803,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4u7"
+		(property "Value" "0u47"
 			(at 144.78 59.6899 0)
 			(effects
 				(font
@@ -5922,7 +6008,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4u7"
+		(property "Value" "0u1"
 			(at 169.926 59.69 0)
 			(effects
 				(font
@@ -5999,7 +6085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 68.58 123.19 0)
 			(effects
 				(font
@@ -6064,7 +6150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 92.71 135.89 0)
 			(effects
 				(font
