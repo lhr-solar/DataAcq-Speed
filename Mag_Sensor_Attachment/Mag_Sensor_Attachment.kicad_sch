@@ -5,21 +5,21 @@
 	(uuid "be03b026-0e5d-44bc-95e6-da5ef7d72856")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x06_Socket"
+		(symbol "Connector:Conn_01x07_Socket"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 7.62 0)
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x06_Socket"
+			(property "Value" "Conn_01x07_Socket"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -45,7 +45,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x06, script generated"
+			(property "Description" "Generic connector, single row, 01x07, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -80,7 +80,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x06_Socket_1_1"
+			(symbol "Conn_01x07_Socket_1_1"
 				(arc
 					(start 0 -7.112)
 					(mid -0.5058 -7.62)
@@ -189,6 +189,18 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -1.27 7.62) (xy -0.508 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(arc
 					(start 0 0.508)
 					(mid -0.5058 0)
@@ -225,8 +237,20 @@
 						(type none)
 					)
 				)
+				(arc
+					(start 0 8.128)
+					(mid -0.5058 7.62)
+					(end 0 7.112)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -244,7 +268,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -262,7 +286,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -280,7 +304,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -298,7 +322,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -316,7 +340,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -326,6 +350,24 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1427,7 +1469,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 77.47) (xy 160.02 100.33)
+			(xy 157.48 77.47) (xy 157.48 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1547,7 +1589,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 77.47) (xy 160.02 77.47)
+			(xy 134.62 77.47) (xy 157.48 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1567,7 +1609,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 100.33) (xy 160.02 100.33)
+			(xy 142.24 100.33) (xy 157.48 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1687,6 +1729,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 67.31) (xy 119.38 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce9a8f0f-805d-4fd6-abba-bbbc2ebe809d")
+	)
+	(wire
+		(pts
 			(xy 116.84 82.55) (xy 116.84 97.79)
 		)
 		(stroke
@@ -1790,7 +1842,7 @@
 		(uuid "54718215-4ed2-45e8-b88a-5f7801b72db4")
 	)
 	(label "Mag_High"
-		(at 153.67 100.33 0)
+		(at 151.13 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2161,85 +2213,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x06_Socket")
-		(at 127 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "711b2f97-c535-46dd-8e9e-e0f56485e5ef")
-		(property "Reference" "J2"
-			(at 128.27 56.642 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x06_Socket"
-			(at 128.016 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "UTSVT_Connectors:Molex_MicroFit_01x06_Horizontal"
-			(at 127 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 127 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "f8260bfb-6341-4cbb-90a1-ce5186f6d69d")
-		)
-		(pin "3"
-			(uuid "dd4a55eb-5610-4a47-8e34-132a15b6a854")
-		)
-		(pin "4"
-			(uuid "43887ae2-a927-4783-b51d-79b625763027")
-		)
-		(pin "1"
-			(uuid "2d5e034e-3b6a-4ed9-81f1-70d41a242540")
-		)
-		(pin "2"
-			(uuid "c8587cda-78a7-4922-b74b-4fc2bd711eb5")
-		)
-		(pin "6"
-			(uuid "760343a7-0856-4618-b316-6f730ef49405")
-		)
-		(instances
-			(project "Mag_Sensor_Attachment"
-				(path "/be03b026-0e5d-44bc-95e6-da5ef7d72856"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 148.59 83.82 180)
 		(unit 1)
@@ -2302,6 +2275,73 @@
 			(project ""
 				(path "/be03b026-0e5d-44bc-95e6-da5ef7d72856"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fbbd5e8-6732-4723-b410-23c2c577664f")
+		(property "Reference" "#PWR04"
+			(at 119.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66a2a1b6-708a-4377-ad1c-0f622df432a6")
+		)
+		(instances
+			(project ""
+				(path "/be03b026-0e5d-44bc-95e6-da5ef7d72856"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2437,6 +2477,89 @@
 			(project ""
 				(path "/be03b026-0e5d-44bc-95e6-da5ef7d72856"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x07_Socket")
+		(at 127 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0f69496-ee68-41cd-8b27-dacacf59c8df")
+		(property "Reference" "J1"
+			(at 127 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x07_Socket"
+			(at 127 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x07, script generated"
+			(at 127 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "082f70a6-3f86-4e6f-91e7-480380d42a12")
+		)
+		(pin "7"
+			(uuid "94d4bc2b-8c77-43ef-b064-0dc0e18491ea")
+		)
+		(pin "5"
+			(uuid "6317e849-f009-4081-83a7-ae883303dee1")
+		)
+		(pin "2"
+			(uuid "0c81e10b-7bac-41f8-911c-7147a6334f7b")
+		)
+		(pin "6"
+			(uuid "1771aa9a-bf51-40b6-8e4d-140d7293f8ba")
+		)
+		(pin "1"
+			(uuid "654a2522-b87d-4f87-9205-add14bd84a7b")
+		)
+		(pin "3"
+			(uuid "b57654b9-2c01-406e-a140-8e160d057555")
+		)
+		(instances
+			(project ""
+				(path "/be03b026-0e5d-44bc-95e6-da5ef7d72856"
+					(reference "J1")
 					(unit 1)
 				)
 			)
