@@ -755,7 +755,7 @@
 			(uuid "e12dca44-9569-4248-ad3b-65d809c92b7d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.1 3.75 360)
+			(at 1.1 3.75 0)
 			(layer "F.Fab")
 			(uuid "a731672b-8042-4e87-93b0-b33a58e0ccea")
 			(effects
@@ -817,15 +817,15 @@
 			(pintype "passive")
 			(uuid "c89a42b6-8199-45d7-a821-bc1c93592700")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Nano-Fit_105309-xx04_1x04_P2.50mm_Vertical.wrl"
+		(model "C:/Users/adivp/Desktop/LHR/DataAcq-Speed/3Dmodels/1053092104.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -3.75 4.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 -90)
 			)
 		)
 	)
@@ -1050,7 +1050,7 @@
 		(descr "LGA, 14 Pin (https://www.st.com/resource/en/datasheet/lsm6ds3tr-c.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "LGA NoLead")
 		(property "Reference" "U1"
-			(at -2.5 -0.25 0)
+			(at -2.5 0.25 0)
 			(layer "F.SilkS")
 			(uuid "df70d085-93a5-4238-848c-e0b89b19bc03")
 			(effects
@@ -1460,6 +1460,17 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "671bcd71-e3f2-4e8d-8b41-998c3568ead2")
+	)
+	(gr_text "IMU\nCONN"
+		(at 143.75 90 0)
+		(layer "F.SilkS")
+		(uuid "e651e93a-b523-427f-9dcb-376b67df4bec")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
 	)
 	(segment
 		(start 147.75 92.5875)
