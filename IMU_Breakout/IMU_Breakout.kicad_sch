@@ -1216,7 +1216,7 @@
 		)
 		(uuid "f44e77e8-948a-49f5-90e0-6d168d2c78fa")
 	)
-	(label "LDO_1.8V"
+	(label "3.3V"
 		(at 124.46 142.24 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1249,7 +1249,7 @@
 		)
 		(uuid "b73fe0cd-d448-4421-8ac8-73d8d2a6bc3a")
 	)
-	(label "LDO_1.8V"
+	(label "3.3V"
 		(at 149.86 115.57 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1713,7 +1713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1V8"
+		(property "Value" "+3V3"
 			(at 152.908 101.6 0)
 			(effects
 				(font

@@ -1931,6 +1931,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 127 62.23 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d3ec254-da15-412b-9f34-fc47d2095b46")
+		(property "Reference" "J1"
+			(at 125.73 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06_Socket"
+			(at 125.73 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105309-xx06_1x06_P2.50mm_Vertical"
+			(at 127 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 127 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "e9fc0225-5e1c-4df4-9d3c-dbb8ef8a9732")
+		)
+		(pin "2"
+			(uuid "1386c107-3a12-42fc-9575-e889e38b4de5")
+		)
+		(pin "6"
+			(uuid "8e99adc2-91b9-4bfe-a03f-3f784b8e896f")
+		)
+		(pin "4"
+			(uuid "c7129ca1-fac7-4b93-aa7c-9bce26aabf94")
+		)
+		(pin "3"
+			(uuid "b14ef652-79cb-4af7-8772-e1d28642acbb")
+		)
+		(pin "1"
+			(uuid "ebc7726a-1f02-4a19-9758-32ecd306f818")
+		)
+		(instances
+			(project "Mag_Sensor_Attachment"
+				(path "/be03b026-0e5d-44bc-95e6-da5ef7d72856"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sensor_Magnetic:MA730")
 		(at 129.54 105.41 0)
 		(unit 1)
@@ -2107,86 +2187,6 @@
 			(project "Mag_Sensor_Attachment"
 				(path "/be03b026-0e5d-44bc-95e6-da5ef7d72856"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x06_Socket")
-		(at 124.46 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c68ffea-73f4-4c55-acf6-fa0d78e2f41e")
-		(property "Reference" "J2"
-			(at 125.73 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x06_Socket"
-			(at 125.73 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105309-xx06_1x06_P2.50mm_Vertical"
-			(at 124.46 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 124.46 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "238bd920-d6d1-47d0-8de4-5e454ffbee1e")
-		)
-		(pin "2"
-			(uuid "ae76d587-fedc-4290-a1ff-deb6b6d2a6b4")
-		)
-		(pin "6"
-			(uuid "f2f53012-c600-419a-bddc-b74e2ae44526")
-		)
-		(pin "4"
-			(uuid "37f1533b-1cde-4194-ac8a-c36d862d8d7e")
-		)
-		(pin "3"
-			(uuid "7cc34503-fff1-48ab-a106-a9bb36f54ec4")
-		)
-		(pin "1"
-			(uuid "f15c0411-eae5-47a9-850e-51a870d45171")
-		)
-		(instances
-			(project ""
-				(path "/be03b026-0e5d-44bc-95e6-da5ef7d72856"
-					(reference "J2")
 					(unit 1)
 				)
 			)
