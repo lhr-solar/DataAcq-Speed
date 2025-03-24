@@ -113,9 +113,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "./")
 		)
 	)
 	(net 0 "")
@@ -4403,7 +4403,7 @@
 		)
 		(fp_arc
 			(start 18.037742 -21.812258)
-			(mid 20.300485 -20.874999)
+			(mid 20.300482 -20.874999)
 			(end 21.237742 -18.612258)
 			(stroke
 				(width 0.1)

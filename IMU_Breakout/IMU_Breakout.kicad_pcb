@@ -74,9 +74,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Gerbers/")
 		)
 	)
 	(net 0 "")
@@ -541,7 +541,7 @@
 			(uuid "38ab379c-dfdd-4a71-90fd-a5195e559e0f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.1 5 360)
+			(at 1.1 5 0)
 			(layer "F.Fab")
 			(uuid "41348f7f-dfe9-4cc4-ac70-24a46cd3ca5b")
 			(effects
