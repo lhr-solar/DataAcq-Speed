@@ -858,12 +858,12 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
-			(at 2.5 0 180)
+			(at 2 0 180)
 			(layer "F.SilkS")
 			(uuid "e4c5f1e1-c914-441c-a95e-2b613664a9ee")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -1071,12 +1071,12 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R5"
-			(at -2.5 0 180)
+			(at -2 0 180)
 			(layer "F.SilkS")
 			(uuid "cf3ad343-2c97-40d7-8244-fff1de31d328")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -1284,12 +1284,12 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at 0 -1.65 0)
+			(at -2.48 0 0)
 			(layer "F.SilkS")
 			(uuid "771126eb-3f2e-4d0e-af56-6165333a8ade")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -1495,7 +1495,7 @@
 		(uuid "7900301f-813a-4c0f-bea2-ae12f92d2e69")
 		(at 176.25 99.25 -90)
 		(property "Reference" "J8"
-			(at 12.5 -4 90)
+			(at 11.5 -0.25 90)
 			(layer "F.SilkS")
 			(uuid "3525dde0-a1d6-4391-8d46-042690bc2113")
 			(effects
@@ -2879,7 +2879,7 @@
 		(uuid "b517c326-5681-4e19-83ca-2cb31711abd6")
 		(at 169.75 99.25 -90)
 		(property "Reference" "J9"
-			(at 9.5 -3.25 90)
+			(at 11.75 0 90)
 			(layer "F.SilkS")
 			(uuid "4d287b75-c645-459a-af74-5f3eae0f7ea8")
 			(effects
@@ -3709,6 +3709,7 @@
 		(property "Reference" "TP10"
 			(at 1.75 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "4d60c117-99b1-4249-8ac2-adc34c322dfa")
 			(effects
 				(font
@@ -3826,6 +3827,7 @@
 		(property "Reference" "TP11"
 			(at 1.75 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "05cee154-f677-4d96-963c-a1fc27e95500")
 			(effects
 				(font
@@ -5065,6 +5067,17 @@
 			)
 		)
 	)
+	(gr_text "IMU_SDA"
+		(at 181.25 93 0)
+		(layer "F.SilkS")
+		(uuid "6971b34c-24d2-4666-93a1-bfe8792a9b75")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
 	(gr_text "3.3V"
 		(at 181.25 75.75 0)
 		(layer "F.SilkS")
@@ -5141,6 +5154,17 @@
 		(at 181.25 107.25 0)
 		(layer "F.SilkS")
 		(uuid "d473f559-ca2d-480e-bd4d-c38702609c01")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(gr_text "IMU_SCL"
+		(at 181.25 89.25 0)
+		(layer "F.SilkS")
+		(uuid "d7e2ff4d-013a-4f28-86d1-3068332d7cf2")
 		(effects
 			(font
 				(size 0.5 0.5)
