@@ -5056,6 +5056,19 @@
 			)
 		)
 	)
+	(gr_text "."
+		(at 176 66.75 0)
+		(layer "F.SilkS")
+		(uuid "4ab180d6-3149-4c42-ae6b-4ec7412edea0")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "MAG_CS"
 		(at 181.25 96.75 0)
 		(layer "F.SilkS")
@@ -5065,6 +5078,19 @@
 				(size 0.5 0.5)
 				(thickness 0.125)
 			)
+		)
+	)
+	(gr_text "."
+		(at 178.5 87.75 0)
+		(layer "F.SilkS")
+		(uuid "64394f88-8282-432b-a656-28a13ade2db1")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "IMU_SDA"
@@ -5111,6 +5137,19 @@
 				(bold yes)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(gr_text "."
+		(at 171 77.75 0)
+		(layer "F.SilkS")
+		(uuid "9b9b2798-0d18-4b30-87c7-a4918f6948cf")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "MAGSLV_O"
@@ -5170,6 +5209,19 @@
 				(size 0.5 0.5)
 				(thickness 0.125)
 			)
+		)
+	)
+	(gr_text "."
+		(at 176.25 99.25 0)
+		(layer "F.SilkS")
+		(uuid "dd439a90-ef44-480f-a8b9-e323809c4350")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "CAN OUT"
